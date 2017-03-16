@@ -1,0 +1,46 @@
+body {
+  background-color: #F6F5F3;
+  color: #7DCE94; }
+
+form {
+  display: flex;
+  flex-direction: column; }
+
+label {
+  margin-right: auto;
+  margin-left: auto; }
+
+input {
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #F9F8FD;
+  width: 30%; }
+
+select {
+  margin-right: auto;
+  margin-left: auto;
+  width: 30%; }
+
+button {
+  margin-right: auto;
+  margin-left: auto;
+  width: 30%; }
+
+input[type="radio"] {
+  display: none; }
+
+#affichageCarte {
+  margin-right: 20px;
+  padding: 10px 20px;
+  background-color: #3399FF; }
+
+#type {
+  display: none; }
+
+input[type="radio"]:checked ~ #type {
+  display: inline; }
+
+li.danger {
+  color: red; }
+li.success {
+  color: green; }
