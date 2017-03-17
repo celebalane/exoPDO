@@ -1,6 +1,64 @@
 body {
-  background-color: #F6F5F3;
-  color: #7DCE94; }
+  background-color: #D7D7D7;
+  color: #222222;
+  font-family: 'Heebo', sans-serif;
+  margin: 0;
+  padding: 0; }
+
+.container-fluid {
+  padding: 0; }
+
+header {
+  margin-top: -4%;
+  margin-bottom: 5%;
+  background-image: url("../../img/fond.jpg");
+  background-size: cover;
+  height: 200px; }
+
+h1 {
+  padding-top: 6%;
+  padding-left: 6%;
+  font-size: 4em;
+  font-weight: 900; }
+
+#fond {
+  width: 100%; }
+
+.btn-primary {
+  padding-top: 4%;
+  height: 100px;
+  border-radius: 0;
+  border: none;
+  background-color: #189bbf;
+  font-size: 2.5em; }
+  .btn-primary:hover {
+    background-color: #1aa3c9; }
+
+h2 {
+  padding-top: 4%;
+  padding-left: 6%;
+  font-size: 4em;
+  font-weight: 900; }
+
+.fondExo {
+  background-color: #EAEAEA;
+  padding: 1% 2% 2% 2%; }
+
+#spectacle {
+  display: none; }
+
+.btnExo {
+  padding-top: 1%;
+  font-size: 1.5em;
+  height: 50px;
+  margin-bottom: 2%; }
+
+#btnAccueil {
+  height: 50px;
+  font-size: 1.5em;
+  margin-bottom: 10%;
+  margin-top: 10%;
+  padding-top: 5%; }
 
 form {
   display: flex;
