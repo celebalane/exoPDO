@@ -8,6 +8,7 @@ body {
 .container-fluid {
   padding: 0; }
 
+/*////////////////////////////Accueil//////////////////////////*/
 header {
   margin-top: -4%;
   margin-bottom: 5%;
@@ -15,14 +16,15 @@ header {
   background-size: cover;
   height: 200px; }
 
-h1 {
+h1, h2 {
   padding-top: 6%;
   padding-left: 6%;
   font-size: 4em;
   font-weight: 900; }
 
-#fond {
-  width: 100%; }
+/*///////////////////////////////Exercice 1/////////////////////*/
+h2 {
+  padding-top: 4%; }
 
 .btn-primary {
   padding-top: 4%;
@@ -34,24 +36,18 @@ h1 {
   .btn-primary:hover {
     background-color: #1aa3c9; }
 
-h2 {
-  padding-top: 4%;
-  padding-left: 6%;
-  font-size: 4em;
-  font-weight: 900; }
-
 .fondExo {
   background-color: #EAEAEA;
   padding: 1% 2% 2% 2%; }
 
-#spectacle {
+#spectacle, #client {
   display: none; }
 
 .btnExo {
+  margin-bottom: 2%;
   padding-top: 1%;
   font-size: 1.5em;
-  height: 50px;
-  margin-bottom: 2%; }
+  height: 50px; }
 
 #btnAccueil {
   height: 50px;
@@ -60,6 +56,7 @@ h2 {
   margin-top: 10%;
   padding-top: 5%; }
 
+/*/////////////////////////////Exercices avec formulaire////////////////////////*/
 form {
   display: flex;
   flex-direction: column; }
